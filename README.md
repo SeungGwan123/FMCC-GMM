@@ -70,3 +70,17 @@ MFCC에서는 n_mfcc=39, n_fft=400, hop_length=160,dct_type=3,lifter=23으로 �
 모델의 사이즈는 431KB이다. 900개의 테스트 데이터에서 각각의 데이터가 남성 모델에서의 likelihood와 여성 모델에서의 likelihood 중 어느 것이 크게 나오는지 
 비교하여, label을 생성해 주었다. 아래 학습률 곡선은 학습 데이터의 개수에 따른 정확도이다.
 </pre>
+
+## 출처
+<pre>
+https://scikit-learn.org/stable/modules/generated/sklearn.mixture.BayesianGaussianMixture.html
+https://dacon.io/codeshare/4526
+https://sooftware.io/mfcc/
+https://librosa.org/doc/main/generated/librosa.feature.mfcc.html
+https://zephyrus1111.tistory.com/183
+https://youdaeng-com.tistory.com/5
+https://ratsgo.github.io/speechbook/docs/fe/mfcc
+https://github.com/SuperKogito/Voice-based-gender-recognition
+https://docs.python.org/3/library/wave.html
+https://stackoverflow.com/questions/58661690/how-can-i-convert-a-raw-data-file-of-audio-in-wav-with-python
+</pre>
